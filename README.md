@@ -1,6 +1,6 @@
 # auto_tag_gen
 automated tags for articles(eattreat)
-
+The ea.zip folder contains eattreat classes folder which has all the text files requierd.
 Input files are text files containing post id,title and content.
 If the article is about instagaram then all the content in h4 is taken into consideration.
 If the article is recipe then only the content in first p tag is taken.
