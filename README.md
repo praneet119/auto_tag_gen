@@ -7,6 +7,8 @@ Dividing one text file into unique text files ..
 
 PUSH CODE THAT DOES THIS AND HOW ?
 
+data_for_psot.py programme makes seperate files out of the whole text.
+
 
 DATA CLEANING :
 stopwords.
