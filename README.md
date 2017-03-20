@@ -41,8 +41,12 @@ GRAMMMAR RULEEEEESSSS : [plural singular # add other rules]
 
 STOPWORDS WHAT AREE ? MANUAL ADDITION BY ? 
 
+//Stopwords are words which are common words which are of liitle significance and removed before further processing of text.
+//Manual addition to already list by analyzing the text of the document.
+
 
 # HOW IS THE FINAL CLEAN CONTENT RETRIEVED  ? DOES THE ORDER MATTER ? 
+//The order does not greatly matters but should be followed.
 UNICODE CHARACTERS ISSUE ###soution ....
 
 cleaned_content
@@ -69,8 +73,11 @@ THIS IS DONE FOR ALL UNIGRAM BIGRAMS TRIGRAM #
 
 after this top 15 words of each file are sent to tag generator function. # HOW WAS 15 DECIDED ... OUTPUT NEEDED 6 TAGS...
 
-the tag generator function gives first preference to quadgram,trigram,bigram and then unigram.
+the tag generator function gives first preference to quadgram,then trigram,then bigram and then unigram.
+
 for a quadgram to exist as a tag both it parts should be in trigram. same for trigram and bigram.
+
 special prefernce is given to words so they become tag if they belong to area or a resturant type or dish type.
+
 after the tags have been generated then naive bayes classiication is called.
 
